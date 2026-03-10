@@ -13,7 +13,7 @@ class ClienteAsientos:
     Cliente que se conecta al servidor de venta de asientos.
     """
     
-    def __init__(self, host='localhost', puerto=5000):
+    def __init__(self, host='192.168.52.148', puerto=5000):
         self.host = host
         self.puerto = puerto
         self.socket = None
